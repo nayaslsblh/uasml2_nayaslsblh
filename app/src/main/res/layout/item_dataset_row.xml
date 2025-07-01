@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#EEEEEE">
+
+        <TextView android:id="@+id/tvDensity" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvAge" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvWeight" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvHeight" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvNeck" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvChest" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvAbdomen" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvHip" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvThigh" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvKnee" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvAnkle" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvBiceps" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvForearm" style="@style/ColHeader" />
+        <TextView android:id="@+id/tvWrist" style="@style/ColHeader" />
+    </LinearLayout>
+</HorizontalScrollView>

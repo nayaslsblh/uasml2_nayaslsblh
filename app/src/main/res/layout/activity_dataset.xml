@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutDataset"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvDatasetTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Body Fat Prediction Dataset"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvDatasetDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dataset ini berisi data antropometri dari pria dewasa untuk memprediksi persentase lemak tubuh. Terdapat 252 sampel dan 14 fitur input seperti Density, Age, Weight, Height, dan ukuran lingkar tubuh lainnya. Dataset ini sering digunakan dalam studi komposisi tubuh dan machine learning klasifikasi kesehatan."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:paddingBottom="24dp" />
+
+        <!-- Detail Fitur -->
+        <TextView
+            android:id="@+id/tvDatasetFeatures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fitur dalam dataset:\n\n- Density\n- Age\n- Weight\n- Height\n- Neck\n- Chest\n- Abdomen\n- Hip\n- Thigh\n- Knee\n- Ankle\n- Biceps\n- Forearm\n- Wrist\n\nTarget: BodyFat (%)"
+            android:textSize="15sp"
+            android:textColor="#555555"
+            android:paddingBottom="24dp" />
+
+        <!-- Button Kaggle Link -->
+        <Button
+            android:id="@+id/btnOpenDataset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Dataset di Kaggle"
+            android:textSize="16sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

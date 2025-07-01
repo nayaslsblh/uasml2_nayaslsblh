@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@android:color/white">
+
+    <TextView android:id="@+id/tvDensity" style="@style/ColItem" />
+    <TextView android:id="@+id/tvAge" style="@style/ColItem" />
+    <TextView android:id="@+id/tvWeight" style="@style/ColItem" />
+    <TextView android:id="@+id/tvHeight" style="@style/ColItem" />
+    <TextView android:id="@+id/tvNeck" style="@style/ColItem" />
+    <TextView android:id="@+id/tvChest" style="@style/ColItem" />
+    <TextView android:id="@+id/tvAbdomen" style="@style/ColItem" />
+    <TextView android:id="@+id/tvHip" style="@style/ColItem" />
+    <TextView android:id="@+id/tvThigh" style="@style/ColItem" />
+    <TextView android:id="@+id/tvKnee" style="@style/ColItem" />
+    <TextView android:id="@+id/tvAnkle" style="@style/ColItem" />
+    <TextView android:id="@+id/tvBiceps" style="@style/ColItem" />
+    <TextView android:id="@+id/tvForearm" style="@style/ColItem" />
+    <TextView android:id="@+id/tvWrist" style="@style/ColItem" />
+</LinearLayout>

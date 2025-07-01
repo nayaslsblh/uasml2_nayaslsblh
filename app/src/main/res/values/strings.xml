@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Body Fat Prediction</string>
+    <string name="des_app">Aplikasi ini dirancang untuk membantu pengguna mengetahui kategori lemak tubuh mereka (Rendah, Normal, atau Tinggi) secara cepat dan akurat menggunakan teknologi Artificial Intelligence.
+    Model yang digunakan merupakan hasil pelatihan algoritma Artificial Neural Network (ANN) dengan data antropometri manusia. Data yang digunakan terdiri dari 15 fitur tubuh seperti usia, berat badan, tinggi badan, serta berbagai ukuran lingkar tubuh (leher, perut, paha, dll).
+    Berdasarkan input fitur-fitur tersebut, model akan memproses data melalui jaringan saraf tiruan dan mengelompokkan hasil prediksi ke dalam 3 kategori lemak tubuh:
+
+    • 0 - Rendah (BodyFat &lt; 10%)
+    • 1 - Normal (10% ≤ BodyFat ≤ 20%)
+    • 2 - Tinggi (BodyFat &gt; 20%)
+
+    Aplikasi ini bertujuan sebagai alat bantu non-medis untuk memantau kondisi komposisi tubuh berdasarkan pengukuran sederhana. Sangat bermanfaat bagi individu yang sedang menjalani program diet, kebugaran, atau pemantauan kesehatan jangka panjang.
+    Silakan menuju ke halaman Simulasi untuk mencoba prediksi langsung berdasarkan data tubuh Anda.
+</string>
+    <string name="des_data">Dataset Body Fat Prediction dari Kaggle ini berisi data antropometri pria yang digunakan untuk memprediksi persentase lemak tubuh. Terdiri dari **252 entri** dan **15 fitur**, seperti usia, berat badan, tinggi badan, dan berbagai ukuran lingkar tubuh (leher, dada, pinggang, dll). Target utama adalah kolom **BodyFat**, yang merepresentasikan persentase lemak tubuh. Dataset ini cocok digunakan untuk tugas regresi atau klasifikasi dalam bidang kesehatan, kebugaran, dan analisis komposisi tubuh.
+</string>
+</resources>

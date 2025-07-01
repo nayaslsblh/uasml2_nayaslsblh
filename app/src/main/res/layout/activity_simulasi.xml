@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Simulasi Prediksi Lemak Tubuh"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- 15 EditText input, semua diperbaiki -->
+        <EditText android:id="@+id/inputDensity" android:hint="Density" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputBodyFat" android:hint="BodyFat" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputAge" android:hint="Age" android:inputType="number"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputWeight" android:hint="Weight" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputHeight" android:hint="Height" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputNeck" android:hint="Neck" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputChest" android:hint="Chest" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputAbdomen" android:hint="Abdomen" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputHip" android:hint="Hip" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputThigh" android:hint="Thigh" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputKnee" android:hint="Knee" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputAnkle" android:hint="Ankle" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputBiceps" android:hint="Biceps" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputForearm" android:hint="Forearm" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/inputWrist" android:hint="Wrist" android:inputType="numberDecimal"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnPrediksi"
+            android:text="Prediksi"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/hasilPrediksi"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
